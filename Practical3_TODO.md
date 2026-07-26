@@ -1,0 +1,5 @@
+- [x] Create React app structure
+- [x] Fetch GitHub repositories
+- [x] Show loading, error, and retry states
+- [x] Add repository search
+- [x] Render repository cards
