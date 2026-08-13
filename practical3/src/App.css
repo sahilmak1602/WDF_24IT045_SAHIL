@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+header {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin-top: 10px;
+}
+
+.repository-container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.repository {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.repository h2 {
+  margin-top: 0;
+}
+
+.repository a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.loading {
+  text-align: center;
+  padding: 50px;
+}
+
+.spinner {
+  width: 45px;
+  height: 45px;
+  border: 5px solid #ddd;
+  border-top: 5px solid #333;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 15px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.error {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 25px;
+  background: #ffe5e5;
+  border-radius: 10px;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .repository-container {
+    grid-template-columns: 1fr;
+  }
+}
