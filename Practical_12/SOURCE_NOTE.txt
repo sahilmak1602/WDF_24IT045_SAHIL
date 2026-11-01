@@ -1,0 +1,4 @@
+Practical 12: CI/CD pipeline with GitHub Actions.
+Source files copied from the uploaded Task-Manager-Portfolio-24IT045 repository.
+The main repository describes Practicals 1–13 as stages of one evolving integrated project; some practicals therefore share files and are not separate standalone applications.
+No implementation has been fabricated. Review the included source files and the top-level README.
